@@ -12,7 +12,7 @@ int main(void)
 	lowerCaseNoeq = 'a';
 	while (lowerCaseNoeq <= 'z')
 	{
-		if(lowerCaseNoeq != 'e') && (lowerCaseNoeq != 'q')
+		if (lowerCaseNoeq != 'e' && lowerCaseNoeq != 'q')
 		{
 			putchar(lowerCaseNoeq);
 		}
