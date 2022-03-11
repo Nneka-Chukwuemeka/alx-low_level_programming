@@ -4,10 +4,8 @@
 /**
 * main - Entry point
 * Print the last digit
-* more headers goes there
-* betty style doc for function main goes there
-*
-* Return : Always 0 (Success)
+* 
+* Return: 0 Always (Success)
 */
 int main(void)
 {
