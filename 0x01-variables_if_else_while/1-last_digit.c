@@ -4,7 +4,7 @@
 /**
 * main - Entry point
 * Print the last digit
-* 
+*
 * Return: 0 Always (Success)
 */
 int main(void)
