@@ -10,7 +10,8 @@ int main(void)
 	char reverseLetters;
 
 	reverseLetters = 'z';
-	while (reverseLetters == 'a'){
+	while (reverseLetters >= 'a')
+	{
 		putchar(reverseLetters);
 		reverseLetters--;
 	}
