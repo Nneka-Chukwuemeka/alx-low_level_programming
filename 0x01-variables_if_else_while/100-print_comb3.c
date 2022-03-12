@@ -21,7 +21,7 @@ int main(void)
 				if (firstNum != 56 || secondNum != 57)
 				{
 					putchar(',');
-					putchar('');
+					putchar(' ');
 				}
 			}
 			secondNum++;
