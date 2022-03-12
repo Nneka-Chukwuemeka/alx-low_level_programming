@@ -1,33 +1,32 @@
 #include <stdio.h>
 /**
-* main - Printing all three combinations of numbers with putchar
-*
-* Return: 0 Always (Success)
-*/
+ * main - prints all possible different combinations of three digits
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int numOne, numTwo, numThree
+	int n, m, l;
 
-		for (numOne = 48; numOne <= 57; numOne++)
+	for (n = 48; n < 58; n++)
+	{
+		for (m = 49; m < 58; m++)
 		{
-			for (numTwo = 49; numTwo <= 57; numTwo++)
+			for (l = 50; l < 58; l++)
 			{
-				for (numThree = 50; numThree  <= 57; numThree++)
+				if (l > m && m > n)
 				{
-					if (numThree > numTwo && numTwo > numOne)
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
 					{
-						putchar(numOne);
-						putchar(numTwo);
-						putchar(numThree);
-						if (numTwo != 56 || numOne != 55)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
-			putchar('\n');
-			return (0);
 		}
+	}
+	putchar('\n');
+	return (0);
 }
