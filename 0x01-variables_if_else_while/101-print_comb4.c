@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Printing all 3 combinations of numbers with putchar
+* main - Printing all three combinations of numbers with putchar
 *
 * Return: 0 Always (Success)
 */
