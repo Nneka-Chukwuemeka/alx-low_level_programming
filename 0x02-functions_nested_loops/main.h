@@ -1,9 +1,9 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef main_h
+#define main_h
 /**
 * main - Function collectors
 *
 * Return: The return values depends on the parameter
 */
 
-int _putchar(char character[20]);
+int _putchar(char);
