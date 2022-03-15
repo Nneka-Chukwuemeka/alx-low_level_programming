@@ -14,6 +14,7 @@ int main(void)
 	{
 		_putchar(arry[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
+
 	return (0);
 }
