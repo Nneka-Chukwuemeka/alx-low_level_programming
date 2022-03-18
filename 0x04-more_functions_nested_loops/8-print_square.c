@@ -6,7 +6,7 @@
 */
 void print_square(int size)
 {
-	int i, int j;
+	int a, int b;
 
 	if (size <= 0)
 	{
@@ -14,20 +14,13 @@ void print_square(int size)
 	}
 	else
 	{
-		i = 0;
-		while (i < size)
+		for (a = 0; a < size; a++)
 		{
-			j = 0;
-			while (j < size)
+			for (b = 0; b < size; b++)
 			{
-				if (j == i)
-				{
-					_putchar('#');
-				}
-				j++;
+				_putchar('#');
 			}
 			_putchar('\n');
-			i++;
 		}
 	}
 }
