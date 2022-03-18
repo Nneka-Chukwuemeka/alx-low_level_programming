@@ -14,7 +14,7 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (count = 0; count < n; count ++)
+		for (count = 0; count < n; count++)
 		{
 			space = n;
 			while (space > 0)
