@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - print numbers from zero to nine
-*/
+ **/
 void print_numbers(void)
 {
 	int i;
