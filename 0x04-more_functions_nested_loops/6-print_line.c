@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print-line - print a line 
+ * print_line - print a line
  * @n: included parameter
 */
 void print_line(int n)
 {
-	if(n > 0)
+	if (n > 0)
 	{
-		int i; 
+		int i;
 
 		for (i = 0; i <= n; i++)
 		{
