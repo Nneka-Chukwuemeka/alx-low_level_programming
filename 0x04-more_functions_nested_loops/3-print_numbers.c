@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - print numbers from zero to 9
- *
- * Return:result 1 if true
+ * print_numbers - print numbers from zero to nine
 */
 void print_numbers(void)
 {
