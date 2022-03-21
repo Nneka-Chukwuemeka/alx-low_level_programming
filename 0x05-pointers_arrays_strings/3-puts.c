@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _puts - prints the string 
- * *str: interger to be included
+ * _puts - prints the string
+ * @str: interger to be included
  *
  * Return: Nothing to return
  */
@@ -14,4 +14,5 @@ void _puts(char *str)
 	{
 		_putchar(str[j]);
 	}
+	_putchar('\n');
 }
